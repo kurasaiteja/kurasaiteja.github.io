@@ -78,6 +78,8 @@ input, select, textarea {
 	color:#ffffff
 }
 
+
+
 /* Basic */
 
 	html {
@@ -2629,7 +2631,7 @@ input, select, textarea {
   }
 
   .footer-section-one {
-	margin-right: 5em;
+	margin-right: 3em;
   }
 
 #header {
@@ -3191,7 +3193,9 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 				height: 44px;
 				left: 0;
 				position: fixed;
@@ -3208,13 +3212,18 @@ input, select, textarea {
 				box-shadow: 0 4px 0 0 #37c0fb;
 			}
 
+			.mobile-logo{
+				margin-top: 5px;
+				margin-bottom: 5px;
+				width: 18%;
+			}
+
 				#titleBar .title {
-					display: block;
-					position: relative;
-					font-weight: 600;
+					font-weight: 1000;
 					text-align: center;
 					color: #fff;
 					z-index: 1;
+					font-family: 'Montserrat', sans-serif;
 				}
 
 					#titleBar .title em {
@@ -3526,5 +3535,9 @@ input, select, textarea {
 				padding: 2em 20px;
 				text-align: left;
 			}
+
+			.footer-section-one {
+				margin-right: 0.5em;
+			  }
 
 	}

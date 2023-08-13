@@ -39,7 +39,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<img class="mobile-logo" src="images/logo.png" />'+
 				'</div>'
 			)
 				.appendTo($body);
